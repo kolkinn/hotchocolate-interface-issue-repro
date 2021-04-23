@@ -1,0 +1,21 @@
+schema {
+    query: Query
+}
+
+interface Fruit {
+    taste: String
+}
+
+interface Orange {
+    color: String
+    taste: String
+}
+
+interface Pineapple {
+    shape: String
+    taste: String
+}
+
+type Query {
+    hello: String
+}
