@@ -1,5 +1,9 @@
 # The issue
-When decorating a class or record with the attribute `InterfaceType`, all classes deriving the type also become interface types in the GraphQL schema.
+When using pure code-first and decorating a class or record with the attribute `InterfaceType`, all classes deriving the type also become interface types in the GraphQL schema.
+
+See the [class based interface type](ClassBasedInterfaceType/Models/Fruit.cs) and its project for a reproduction of the issue.
+
+Here is a working example using an [interface based interface type](InterfaceBasedInterfaceType/Models/IFruit.cs).
 
 ## C# code
 
