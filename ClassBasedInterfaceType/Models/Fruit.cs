@@ -1,6 +1,6 @@
 using HotChocolate.Types;
 
-namespace InterfaceIssue.Models
+namespace ClassBasedInterfaceType.Models
 {
     [InterfaceType]
     public class Fruit

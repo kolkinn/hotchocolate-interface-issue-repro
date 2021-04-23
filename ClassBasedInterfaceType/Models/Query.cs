@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace InterfaceIssue.Models
+namespace ClassBasedInterfaceType.Models
 {
     public class Query
     {
